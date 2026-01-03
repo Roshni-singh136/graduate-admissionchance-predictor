@@ -1,24 +1,29 @@
-# graduate-admissionchance-predictor
-ML-based admission chance prediction web app
-# Chance of Admission Prediction
+# Graduate Admission Chance Estimator
 
-This project predicts the probability of admission for higher studies
-based on GRE, TOEFL, CGPA, SOP, LOR, University Rating, and Research.
+This is a frontend-only web application that estimates a student's chance of
+admission to graduate programs based on academic factors.
 
-## Technologies Used
-- Python
-- Pandas
-- Scikit-learn
-- Linear Regression
+## 📌 Project Type
+Rule-based prediction system (no machine learning).
 
-## Dataset
-Admission Chance dataset (YBI Foundation)
+## 🛠 Tech Stack
+- React
+- TypeScript
+- Tailwind CSS
 
-## Model
-Linear Regression model trained with 70% training data.
+## 📊 How Prediction Works
+The application uses a weighted formula based on:
+- GRE score
+- TOEFL score
+- CGPA
+- Research experience
 
-## Evaluation
-Mean Absolute Error ≈ 0.044
+The final score is calculated using normalized values and displayed as a
+percentage.
 
-## Conclusion
-The model predicts admission chances with reasonable accuracy.
+## 🎯 Purpose
+This project is intended for learning and demonstration purposes as a
+mini/semester project.
+
+## 🚀 Live Demo
+[Add your deployed link here]
