@@ -9,7 +9,8 @@ import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Switch } from "@/components/ui/switch";
 import { Progress } from "@/components/ui/progress";
-import { predictAdmissionChance, getChanceLabel, MODEL_METRICS } from "@/lib/prediction";
+import { predictChance } from "../utils/prediction";
+
 import { GraduationCap, Calculator, Info, AlertTriangle } from "lucide-react";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 
